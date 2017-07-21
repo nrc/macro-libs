@@ -59,3 +59,22 @@ TODO
 ## Examples
 
 * [Darkly](https://github.com/nrc/darkly) A scanln macro.
+* [Bindgen](https://github.com/servo/rust-bindgen/tree/master/src/codegen) Would be good to be able to use proc macro libs here instead of libsyntax.
+* [Async/await](https://github.com/rust-lang/rust/pull/40939#issuecomment-302845387)
+
+## Motivation
+
+### Replace existing macro system
+
+especially broken bits - hygiene, proc macros
+
+### Blocks async/await
+
+Needs
+* spans/errors
+* stabilisation
+
+Issues
+* extern crate hygiene
+* name resolution hygiene (currently using abs paths)
+
